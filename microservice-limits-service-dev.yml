@@ -1,3 +1,8 @@
 limits-service: 
   minimum: 1
   maximum: 1111
+  
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
